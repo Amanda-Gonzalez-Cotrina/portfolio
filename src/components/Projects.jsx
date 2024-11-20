@@ -25,6 +25,7 @@ const Proyectos = () => {
       nombre: 'Web de Hackathones',
       enlace: 'https://github.com/Amanda-Gonzalez-Cotrina/HAB_PFB_HACKATHONES',
       imagen: './assets/ilustraciones/Hack-a-ton.png',
+      deploy: 'https://hackathonamanda.netlify.app/',
     },
     {
       color: 'rosablanco',
