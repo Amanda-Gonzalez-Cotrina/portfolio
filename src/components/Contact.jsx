@@ -69,7 +69,7 @@ const Contact = () => {
                     <img
                       src='./assets/iconos/linkedin.png'
                       alt='LinkedIn'
-                      className='h-6 min-w-11'
+                      className='h-6 min-w-11 transition-transform duration-200 hover:scale-105'
                     />
                   </a>
                   <a
@@ -80,7 +80,7 @@ const Contact = () => {
                     <img
                       src='./assets/iconos/instagram.png'
                       alt='Instagram'
-                      className='h-6 ml-2.5'
+                      className='h-6 ml-2.5 transition-transform duration-200 hover:scale-105'
                     />
                   </a>
                 </div>
