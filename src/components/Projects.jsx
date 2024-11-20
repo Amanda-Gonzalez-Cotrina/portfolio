@@ -35,6 +35,7 @@ const Proyectos = () => {
       nombre: '👉 Portfolio 👈',
       enlace: 'https://github.com/Amanda-Gonzalez-Cotrina/Portfolio',
       imagen: './assets/ilustraciones/portfolio.png',
+      deploy: 'https://amandie.netlify.app/',
     },
     {
       color: 'lilaclaro',
