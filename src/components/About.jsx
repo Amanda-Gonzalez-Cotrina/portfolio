@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className='flex  min-h-screen bg-lilablanco'>
+    <div className='flex min-h-screen bg-lilablanco'>
       {/* Ventana externa */}
       <div className='relative m-10 lg:w-[1000px] min-h-[600px] pb-10 p-1 bg-lilaclaro rounded-lg shadow-lg'>
         {/* Barra superior de la ventana externa */}
@@ -16,17 +16,24 @@ const About = () => {
         </div>
 
         <div className='flex flex-col lg:flex-row items-center lg:items-start'>
-          {/* Imagen circular */}
-          <div className='lg:absolute lg:-right-16 xl:-right-64 2xl:-right-96 lg:top-10 w-72 h-72 lg:w-[500px] lg:h-[500px] bg-teal-300 rounded-full overflow-hidden mt-4 lg:mt-0 border-4 border-morado'>
+          {/* Imagen circular con animaciones de hover */}
+          <div className='group lg:absolute lg:-right-16 xl:-right-64 2xl:-right-96 lg:top-10 w-72 h-72 lg:w-[500px] lg:h-[500px] bg-teal-300 rounded-full overflow-hidden mt-4 lg:mt-0 border-4 border-morado transition-all duration-300 ease-in-out transform hover:scale-110 hover:border-rosa hover:border-8 hover:rotate-3 relative'>
             <img
               src='/assets/perfil.png'
               alt='Imagen de perfil'
               className='object-cover w-full h-full'
             />
+            {/* Botón que aparece solo cuando hover */}
+            <a
+              href='#contact' // Enlace de anclaje que lleva a la sección con id="sobre-mi"
+              className='absolute bottom-4 left-1/2 transform -translate-x-1/2 py-2 px-4 bg-morado text-white rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out hover:bg-rosa hover:border-lilaoscuro hover:border-2 hover:shadow-xl hover:scale-105 font-retro'
+            >
+              Contacto
+            </a>
           </div>
 
           {/* Ventana interna */}
-          <div className='relative lg:w-[600px] xl:w-[800px] w-full  p-1 bg-lilaoscuro rounded-lg shadow-md mt-8 ml-8  text-white text-lg lg:text-xl font-sister'>
+          <div className='relative lg:w-[600px] xl:w-[800px] w-full p-1 bg-lilaoscuro rounded-lg shadow-md mt-8 ml-8 text-white text-lg lg:text-xl font-sister'>
             {/* Barra superior de la ventana interna */}
             <div className='flex items-center justify-between p-2 bg-verde rounded-lg border-2 border-negro'>
               <h2 className='bg-lilaclaro text-blanco font-sister text-xl w-full mr-3 pl-5 rounded-lg'>
@@ -40,7 +47,9 @@ const About = () => {
             </div>
 
             {/* Contenido del texto */}
-            <p className='leading-relaxed p-4 pt-8'>👋 ¡Hola, soy Amanda! 🤗</p>
+            <p id='sobre-mi' className='leading-relaxed p-4 pt-8'>
+              👋 ¡Hola, soy Amanda! 🤗
+            </p>
             <p className='p-4'>
               Nueva programadora web con un enfoque especial en el desarrollo
               front-end. He completado un bootcamp de programación full stack
