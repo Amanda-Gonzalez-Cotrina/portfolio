@@ -40,19 +40,26 @@ const About = () => {
             </div>
 
             {/* Contenido del texto */}
-            <p className='leading-relaxed p-4 pt-8'>
-              Soy programadora web con un enfoque especial en el desarrollo
-              front-end.
+            <p className='leading-relaxed p-4 pt-8'>👋 ¡Hola, soy Amanda! 🤗</p>
+            <p className='p-4'>
+              Nueva programadora web con un enfoque especial en el desarrollo
+              front-end. He completado un bootcamp de programación full stack
+              donde he podido adquirir habilidades en tecnologías como HTML,
+              CSS, JavaScript y frameworks como React y Node.js.
             </p>
             <p className='p-4'>
-              Tras completar un bootcamp de programación, he adquirido
-              habilidades en tecnologías como HTML, CSS, JavaScript y frameworks
-              como React y Node.js.{' '}
+              Me atrae crear interfaces intuitivas y atractivas que mejoren la
+              experiencia del usuario.
             </p>
             <p className='p-4'>
-              Me apasiona crear interfaces intuitivas y atractivas que mejoren
-              la experiencia del usuario. Me diferencia mi capacidad para
-              combinar un pensamiento analítico con un enfoque creativo.{' '}
+              Mi huella personal es mi capacidad para combinar un pensamiento
+              analítico con un enfoque creativo. Transformo ideas en
+              aplicaciones visualmente impactantes, asegurándome de que sean
+              accesibles y funcionales en todos los dispositivos. Además, tengo
+              experiencia trabajando en equipo utilizando herramientas como
+              notion, slack y figma, entre otras, y aplicando metodologías
+              ágiles como SCRUM, lo que me permite colaborar de manera efectiva
+              en proyectos multifuncionales.
             </p>
             <p className='p-4'>
               Disfruto transformando ideas en aplicaciones visualmente
@@ -60,8 +67,9 @@ const About = () => {
               todos los dispositivos.{' '}
             </p>
             <p className='p-4'>
-              Comprometida con el aprendizaje continuo, siempre busco nuevas
-              oportunidades para expandir mis conocimientos y habilidades.{' '}
+              Comprometida con el aprendizaje continuo, y familiarizada con un
+              enfoque de trabajo altamente organizado, siempre busco nuevas
+              oportunidades para expandir mis conocimientos y habilidades.
             </p>
             <p className='p-4 pb-8'>
               ¡¡¡Estoy emocionada por la posibilidad de contribuir a proyectos

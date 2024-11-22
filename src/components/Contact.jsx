@@ -78,8 +78,8 @@ const Contact = () => {
                     rel='noopener noreferrer'
                   >
                     <img
-                      src='./assets/iconos/instagram.png'
-                      alt='Instagram'
+                      src='./assets/iconos/github.png'
+                      alt='gitHub'
                       className='h-6 ml-2.5 transition-transform duration-200 hover:scale-105'
                     />
                   </a>
