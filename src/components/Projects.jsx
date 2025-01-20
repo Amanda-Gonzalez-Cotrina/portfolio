@@ -83,6 +83,7 @@ const Proyectos = () => {
   return (
     <div className='min-h-screen bg-verde flex flex-col items-center py-10 relative'>
       <h1 className='text-5xl text-center m-8 mb-14 font-sister'>PROYECTOS</h1>
+      <img src='/public/assets/tec.png' alt='' />
       <div className='relative w-full h-auto'>
         {/* Diseño desordenado para pantallas xl y superiores */}
         <div className='hidden xl:block relative w-full h-[700px] '>
