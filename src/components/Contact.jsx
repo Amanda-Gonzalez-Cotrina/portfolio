@@ -51,9 +51,9 @@ const Contact = () => {
               <p className='font-sister mb-7 text-base md:text-lg'>
                 <a
                   href='mailto:amandagc@outlook.es'
-                  className='text-rosaoscuro hover:underline'
+                  className='text-rosaoscuro hover:underline hover:text-xl'
                 >
-                  Envíame{' '}
+                  Envíame {''}
                 </a>
                 un correo electrónico a amandagc@outlook.es
               </p>
@@ -69,18 +69,18 @@ const Contact = () => {
                     <img
                       src='./assets/iconos/linkedin.png'
                       alt='LinkedIn'
-                      className='h-6 min-w-11 transition-transform duration-200 hover:scale-105'
+                      className='h-6 min-w-11 transition-transform duration-200 hover:scale-125'
                     />
                   </a>
                   <a
-                    href='https://www.instagram.com'
+                    href='https://github.com/Amanda-Gonzalez-Cotrina'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
                     <img
                       src='./assets/iconos/github.png'
                       alt='gitHub'
-                      className='h-6 ml-2.5 transition-transform duration-200 hover:scale-105'
+                      className='h-6 ml-2.5 transition-transform duration-200 hover:scale-125'
                     />
                   </a>
                 </div>

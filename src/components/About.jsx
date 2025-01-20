@@ -51,7 +51,7 @@ const About = () => {
               👋 ¡Hola, soy Amanda! 🤗
             </p>
             <p className='p-4'>
-              Nueva programadora web con un enfoque especial en el desarrollo
+              Programadora web junior con un enfoque especial en el desarrollo
               front-end. He completado un bootcamp de programación full stack
               donde he podido adquirir habilidades en tecnologías como HTML,
               CSS, JavaScript y frameworks como React y Node.js.
