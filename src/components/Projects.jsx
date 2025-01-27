@@ -82,8 +82,8 @@ const Proyectos = () => {
 
   return (
     <div className='min-h-screen bg-verde flex flex-col items-center py-10 relative'>
-      <h1 className='text-5xl text-center m-8 mb-14 font-sister'>PROYECTOS</h1>
-      <img src='/public/assets/tec.png' alt='' />
+      <h1 className='text-5xl text-center m-8 mb-3 font-sister'>PROYECTOS</h1>
+      <img src='/public/assets/tec.png' alt='iconos' className='h-14 mb-16' />
       <div className='relative w-full h-auto'>
         {/* Diseño desordenado para pantallas xl y superiores */}
         <div className='hidden xl:block relative w-full h-[700px] '>
@@ -193,7 +193,7 @@ const Proyectos = () => {
             </div>
             <button
               onClick={() => setShowAll(!showAll)}
-              className='block mx-auto mt-14 px-6 py-2 bg-black text-white font-retro text-xl rounded-lg hover:bg-gray-800'
+              className='block mx-auto mt-14 px-6 py-2 bg-morado text-white font-retro text-xl rounded-lg hover:bg-rosa hover:border-lilaoscuro hover:border-2'
             >
               {showAll ? 'Ver menos' : 'Ver más'}
             </button>
